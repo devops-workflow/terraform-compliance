@@ -1,5 +1,5 @@
 radish-bdd==0.13.1
-gitpython==3.1.20
+gitpython==3.1.41
 netaddr==0.8.0
 colorful==0.5.4
 filetype==1.2.0
@@ -7,6 +7,8 @@ junit-xml==1.9
 emoji==2.2.0
 lxml==4.9.2
 semver==3.0.2
-IPython==7.16.1
-orjson==3.8.8
+IPython==8.10.0
+orjson==3.9.15
 diskcache==5.6.3
+setuptools>=70.0.0 # not directly required, pinned by Snyk to avoid a vulnerability
+zipp>=3.19.1 # not directly required, pinned by Snyk to avoid a vulnerability
